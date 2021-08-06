@@ -1,0 +1,11 @@
+apply plugin : 'application'
+
+
+application {
+    applicationDefaultJvmArgs = ['-Dgreeting.language=en']
+}
+
+
+mainClassName = 'manishk.Sample'
+
+
